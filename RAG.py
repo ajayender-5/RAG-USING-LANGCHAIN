@@ -19,8 +19,7 @@ from langchain_community.document_loaders import PyPDFLoader
 # Set page configuration to full width
 st.set_page_config(page_title="RAG System", page_icon="🤖")
 
-st.image(r'https://innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png')
-f = open(r"C:\Users\madas\OneDrive\Desktop\GenAI_apps\gen_AI_app\Key.txt")
+f = open(r"C:\Users\AJAY\OneDrive\Desktop\GenAI_apps\gen_AI_app\Key.txt")
 key = f.read()
 
 st.title(":rainbow[RAG System on Leave No Context Behind Paper]📃")
